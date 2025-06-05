@@ -42,7 +42,7 @@
     </nav>
 
     <div class="container-fluid ps-5 pe-5 mt-5">
-        <form class="row g-3">
+        <div class="row g-3">
             <div class="col-md-4">
                 <label for="company-name" class="form-label">Name</label>
                 <input type="text" class="form-control" id="company-name" placeholder="Jetwing travels" required>
@@ -52,8 +52,8 @@
                 <input type="text" class="form-control" id="company-location" placeholder="Colombo 07" required>
             </div>
             <div class="col-md-4">
-                <label for="validationDefault04" class="form-label">Industry</label>
-                <select class="form-select" id="validationDefault04" required>
+                <label for="company-industry" class="form-label">Industry</label>
+                <select class="form-select" id="company-industry" required>
                     <option selected disabled value="">Choose...</option>
                     <option value="Information Technology">Information Technology</option>
                     <option value="Healthcare">Healthcare</option>
@@ -86,9 +86,9 @@
                 </div>
             </div>
             <div class="col-12">
-                <button class="btn btn-primary" type="submit">Register</button>
+                <button class="btn btn-primary" type="submit" id="company-register-submit">Register</button>
             </div>
-        </form>
+        </div>
     </div>
 
     <script src="../assets/js/app.js"></script>
